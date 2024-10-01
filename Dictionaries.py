@@ -8,4 +8,6 @@ print(my_dict)
 #access data from the dictionary
 print(my_dict["key2"])
 
+#accessing using .get()method
 print(my_dict.get("name"))
+
