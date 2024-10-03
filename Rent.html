@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseType</title>
+</head>
+<body>
+    <h2>Type of house:</h2>
+    <p id="HouseType" ></p>
+    <script type="text/javascript">
+        const rent = prompt("Enter your monthly rent")
+        let houseType
+
+        function determineHouseType (){
+            if (rent > 5000 && rent < 10000) {
+                houseType = "1 Bedroom";
+            } else if (rent > 10000 && rent < 15000) {
+                houseType = "2 Bedroom";
+            } else if (rent > 15000 && rent < 20000) {
+                houseType = "3 Bedroom";
+            } else {
+                houseType = "No allocation for that amount.";
+            }
+        }
+        
+        determineHouseType()
+
+        document.getElementById("HouseType").innerHTML = "For a rent of Ksh" + rent + ", the house type is: "+ houseType
+    
+    </script>
+</body>
+</html>
