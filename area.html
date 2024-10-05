@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TriangleArea</title>
 </head>
 <body>
-    
+    <h3>Area</h3>
+    <p id="areaDisplay"></p>
+
+    <script type="text/javascript">
+        
+        function calcArea (base, height){
+            const area = 0.5 * base * height
+            return area
+        }
+
+        let base = 400
+        let height = 100
+
+        const areaResult = calcArea(base, height)
+
+        document.getElementById("areaDisplay").innerHTML = "The area of the triangle is: " + areaResult
+    </script>
 </body>
 </html>
