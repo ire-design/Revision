@@ -28,3 +28,7 @@ print(stylish_barber())
 # pass
 def my_function ():
     pass
+
+#eg
+def Book():
+    pass
