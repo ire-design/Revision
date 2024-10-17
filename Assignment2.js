@@ -43,11 +43,11 @@
         gradeStudent(-5);  
         gradeStudent(102); 
 
-// array to store 10 numbers
+// ask users to input 10 numbers, store them in an array, then sort in ascending order
     const numbers = []
 
     for (let i=0; i< 10; i++){
-        // const num = parseFloat(prompt(`Enter a number`))
+        const num = parseFloat(prompt(`Enter a number ${i + 1}:`))
         numbers.push(num)
     }
 
