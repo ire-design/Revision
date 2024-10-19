@@ -22,3 +22,14 @@ def control_flow(value):
         print("nope!")
 
 control_flow(True)
+
+# ternary operators / conditional expressions
+age = 1
+
+if age < 2:
+    is_baby = 'baby'
+else:
+    is_baby = 'not a baby'
+    
+print(f'My baby is of age {age} hence is {is_baby}')
+    
