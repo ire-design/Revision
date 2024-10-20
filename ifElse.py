@@ -46,3 +46,4 @@ def divide(num1, num2):
     #     print("Isn't division fun?")
         
 divide(16, 0)
+divide(10, 2)
