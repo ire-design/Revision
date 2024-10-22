@@ -47,3 +47,4 @@ def divide(num1, num2):
         
 divide(16, 0)
 divide(10, 2)
+divide(15.2, 2)
