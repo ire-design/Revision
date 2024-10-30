@@ -20,3 +20,16 @@ print(my_list)
 my_list = ['This is a long sentence', 'Word', 'z']
 my_list.sort(key = len, reverse=True)
 print(my_list)
+
+my_list = [('John', 2), ('Steve', 1), ('Joe', 3)]
+
+
+
+# We can define a function for the list to sort by the second key
+def sort_tuple(tuple_value):
+
+    # return the key we want to sort by
+    return tuple_value[1]
+
+my_list.sort(key = sort_tuple)
+print(my_list)
