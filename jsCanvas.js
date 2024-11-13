@@ -45,3 +45,10 @@ const users = [
         "Failure is not the opposite of success: it’s part of success",
     },
   ];
+
+function printFirstName (users) {
+    for(const user of users){
+        console.log(user.firstName)
+    }
+}
+printFirstName(users)
