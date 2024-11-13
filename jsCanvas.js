@@ -53,6 +53,8 @@ function printFirstName (users) {
 }
 printFirstName(users)
 
+console.log("\n---\n");
+
 function printFavColor(users, color){
     for(const user of users){
         if(user.favoriteColor === color){
