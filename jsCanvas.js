@@ -63,3 +63,14 @@ function printFavColor(users, color){
     }
 }
 printFavColor(users, "Blue")
+
+console.log("\n---\n");
+
+/* 
+Finding Array Elements
+* indexOf()
+* find() 
+*/
+
+const cards = ['queen of hearts', 'jack of clubs', 'ten of diamonds', 'ace of spades'];
+
