@@ -36,12 +36,5 @@ const users = [
       personalQuote:
         "You don’t have to see the whole staircase, just take the first step",
     },
-    {
-      firstName: "Drew",
-      lastName: "Price",
-      favoriteColor: "Yellow",
-      favoriteAnimal: "Elephant",
-      personalQuote:
-        "Failure is not the opposite of success: it’s part of success",
-    },
+
   ];
