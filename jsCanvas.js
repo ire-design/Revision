@@ -52,3 +52,12 @@ function printFirstName (users) {
     }
 }
 printFirstName(users)
+
+function printFavColor(users, color){
+    for(const user of users){
+        if(user.favoriteColor === color){
+            console.log(user.firstName, user.favoriteColor)
+        }
+    }
+}
+printFavColor(users, "Blue")
