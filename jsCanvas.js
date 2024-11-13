@@ -76,3 +76,5 @@ const cards = ['queen of hearts', 'jack of clubs', 'ten of diamonds', 'ace of sp
 console.log(cards.indexOf('jack of clubs'))
 /* If the element isn't contained in the array, it returns -1. */
 console.log(cards.indexOf('jack of hearts'))
+/* If you pass in the optional second argument, indexOf() will begin the search at the specified position */
+console.log(cards.indexOf('ace of spades', 2))
