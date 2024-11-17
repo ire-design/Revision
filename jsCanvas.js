@@ -82,7 +82,11 @@ console.log(cards.indexOf('ace of spades', 2))
 /* array.prototype.find() */
 
 
+
+console.log("\n---\n");
+
 /*Filtering Arrays */
-filter(users, function(user){
-  return user.favoriteColor === 'Blue' && user.favoriteAnimal === 'penguin'
+const filteredUsers = users.filter(function(user){
+  return user.favoriteColor === 'Blue' && user.favoriteAnimal === 'Penguin'
 })
+console.log(filteredUsers)
