@@ -122,3 +122,17 @@ const redItems = items.filter(function(item){
 // use arrow fn
 const blueItems = items.filter(item => item.color === "blue")
 console.log(blueItems)
+
+/*
+*3. Write a filter function to return cars that are blue and made after 2019.
+
+*/
+const cars = [
+  { brand: "Toyota", year: 2020, color: "blue" },
+  { brand: "Honda", year: 2018, color: "red" },
+  { brand: "Ford", year: 2021, color: "blue" },
+  { brand: "Chevrolet", year: 2019, color: "red" },
+];
+
+const filteredCars = filter.cars(car => car.year > 2019 && car.color === 'blue' )
+console.log(filteredCars)
