@@ -181,3 +181,35 @@ console.log(fullNames);
 const nums = [1, 2, 3, 4]
 const trippled = nums.map(num => num * 3)
 console.log(trippled)
+
+//Given an array of objects, extract only the name property into a new array.
+const users1 = [
+  { id: 1, name: "Alice" },
+  { id: 2, name: "Bob" },
+  { id: 3, name: "Charlie" }
+];
+
+const onlyNames = users1.map(user => user.name)
+console.log(onlyNames)
+
+//Given an array of strings, append " is cool!" to each string.
+const names = ["JavaScript", "Python", "Ruby"];
+const newNames = names.map(name => `${name} is cool`)
+console.log(newNames)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
