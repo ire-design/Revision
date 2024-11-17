@@ -175,3 +175,9 @@ const people1 = [
 const fullNames = people1.map(person => `${person.firstName} ${person.lastName}`);
 console.log(fullNames);
 
+//QUIZ
+//Given an array of numbers, return a new array where each element is multiplied by 3.
+
+const nums = [1, 2, 3, 4]
+const trippled = nums.map(num => num * 3)
+console.log(trippled)
