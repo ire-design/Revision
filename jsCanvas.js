@@ -134,5 +134,5 @@ const cars = [
   { brand: "Chevrolet", year: 2019, color: "red" },
 ];
 
-const filteredCars = filter.cars(car => car.year > 2019 && car.color === 'blue' )
+const filteredCars = cars.filter(car => car.year > 2019 && car.color === 'blue' )
 console.log(filteredCars)
