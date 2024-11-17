@@ -223,6 +223,10 @@ const students = [
 const activeStudents = students.filter(student => student.isActive).map(student => student.name)
 console.log(activeStudents)
 
+//Using for...of in Place of .map()
+const skiSchool = ["aki", "guadalupe", "lei", "aalam"];
+const rollCall = [];
+
 //REDUCE method
 const numbers2 = [1, 2, 3, 4, 5];
 const sum = numbers2.reduce((accumulator, currentValue) => {
