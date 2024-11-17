@@ -78,3 +78,11 @@ console.log(cards.indexOf('jack of clubs'))
 console.log(cards.indexOf('jack of hearts'))
 /* If you pass in the optional second argument, indexOf() will begin the search at the specified position */
 console.log(cards.indexOf('ace of spades', 2))
+
+/* array.prototype.find() */
+
+
+/*Filtering Arrays */
+filter(users, function(user){
+  return user.favoriteColor === 'Blue' && user.favoriteAnimal === 'penguin'
+})

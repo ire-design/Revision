@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="demo">the sum of the array is</p>
+    <button onclick="calculate()">calculate</button>
+    
+    <script>
+            const numbers=[45,39,36,46,67,78,20]
+            function calculate(numbers){
+                for(let i=0;i<numbers.length();i++){
+                    var sum = 0;
+                    sum += numbers[i];
+                    return sum 
+                }
+                document.getElementById('demo').innerHTML=calculate()
+            }
+        </script>
+</body>
+</html>
