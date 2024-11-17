@@ -194,7 +194,7 @@ console.log(onlyNames)
 
 //Given an array of strings, append " is cool!" to each string.
 const names = ["JavaScript", "Python", "Ruby"];
-const newNames = names.map(name => `${name} is cool`)
+const newNames = names.map(name => `${name} is cool!`)
 console.log(newNames)
 
 
