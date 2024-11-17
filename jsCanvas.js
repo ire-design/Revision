@@ -206,16 +206,30 @@ const pple = [
 
 //
 const NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const oddNumbersFiltered = NUMBERS.filter(NUM => NUM % 2 === 0)
-console.log(oddNumbersFiltered)
-const doubledEven = oddNumbersFiltered.map(NUM * 2)
+const EvenNumbersFiltered = NUMBERS.filter(NUM => NUM % 2 === 0)
+console.log(EvenNumbersFiltered)
+const doubledEven = EvenNumbersFiltered.map(NUM => NUM * 2)
+console.log(doubledEven)
 
+//
+const students = [
+  { name: "Alice", isActive: true },
+  { name: "Bob", isActive: false },
+  { name: "Charlie", isActive: true },
+  { name: "David", isActive: false },
+  { name: "Eva", isActive: true }
+];
 
+const activeStudents = students.filter(student => student.isActive).map(student => student.name)
+console.log(activeStudents)
 
+//REDUCE method
+const numbers2 = [1, 2, 3, 4, 5];
+const sum = numbers2.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0); // Start with 0 as the initial value for the accumulator
 
-
-
-
+console.log(sum);
 
 
 
