@@ -220,12 +220,17 @@ const students = [
   { name: "Eva", isActive: true }
 ];
 
-const activeStudents = students.filter(student => student.isActive).map(student => student.name)
+const activeStudents = students.filter(pupil => pupil.isActive).map(pupil => pupil.name)
 console.log(activeStudents)
 
 //Using for...of in Place of .map()
 const skiSchool = ["aki", "guadalupe", "lei", "aalam"];
 const rollCall = [];
+
+for(const pupil of skiSchool){
+  rollCall.push(`${pupil} the skier`)
+}
+console.log(rollCall)
 
 //REDUCE method
 const numbers2 = [1, 2, 3, 4, 5];
@@ -235,6 +240,12 @@ const sum = numbers2.reduce((accumulator, currentValue) => {
 
 console.log(sum);
 
+//forEach
+const pupils = ["Alice", "Bob", "Charlie", "David"];
+
+pupils.forEach(pupil => {
+  console.log(pupil);
+});
 
 
 
