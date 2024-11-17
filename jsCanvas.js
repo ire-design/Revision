@@ -107,6 +107,9 @@ const over18 = people.filter(function(people){
 })
 console.log(over18)
 
+const over181 = people.filter(people => people.age >= 18)
+console.log(over181)
+
 /*2. Write a filter function to return only items that are red.*/
 
 const items = [
@@ -156,4 +159,19 @@ const employees = [
 
 const NewYorkEmpl = employees.filter(employee => employee.location.city === 'New York')
 console.log(NewYorkEmpl)
+
+console.log('\n---\n')
+/* Mapping */
+//Basic transformation
+const numbers = [1, 2, 3, 4];
+const doubled = numbers.map(num => num * 2);
+console.log(doubled);
+
+//Object transformation
+const people1 = [
+  { firstName: "John", lastName: "Doe" },
+  { firstName: "Jane", lastName: "Smith" }
+];
+const fullNames = people1.map(person => `${person.firstName} ${person.lastName}`);
+console.log(fullNames);
 
