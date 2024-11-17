@@ -208,6 +208,7 @@ const pple = [
 const NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const oddNumbersFiltered = NUMBERS.filter(NUM => NUM % 2 === 0)
 console.log(oddNumbersFiltered)
+const doubledEven = oddNumbersFiltered.map(NUM * 2)
 
 
 
