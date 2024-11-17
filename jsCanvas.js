@@ -137,3 +137,23 @@ const cars = [
 
 const filteredCars = cars.filter(car => car.year > 2019 && car.color === 'blue' )
 console.log(filteredCars)
+
+console.log('\n---\n')
+
+/*4.Write a filter function to return employees who work in New York.
+ */
+const employees = [
+  { name: "Sarah", 
+    role: "Engineer", 
+    location: { 
+                city: "New York", 
+                country: "USA" 
+              } 
+  },
+  { name: "Tom", role: "Designer", location: { city: "London", country: "UK" } },
+  { name: "Anna", role: "Manager", location: { city: "New York", country: "USA" } },
+];
+
+const NewYorkEmpl = employees.filter(employee => employee.location.city === 'New York')
+console.log(NewYorkEmpl)
+
