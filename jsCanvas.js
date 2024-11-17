@@ -90,3 +90,19 @@ const filteredUsers = users.filter(function(user){
   return user.favoriteColor === 'Blue' && user.favoriteAnimal === 'Penguin'
 })
 console.log(filteredUsers)
+
+console.log('\n---\n')
+/* filter quiz*/
+/*Write a filter function to return only people aged 18 or older.
+ */
+const people = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 17 },
+  { name: "Charlie", age: 30 },
+  { name: "David", age: 16 },
+];
+
+const over18 = people.filter(function(people){
+  return people.age >= 18
+})
+console.log(over18)
