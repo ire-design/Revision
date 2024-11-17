@@ -93,7 +93,7 @@ console.log(filteredUsers)
 
 console.log('\n---\n')
 /* filter quiz*/
-/*Write a filter function to return only people aged 18 or older.
+/*1. Write a filter function to return only people aged 18 or older.
  */
 const people = [
   { name: "Alice", age: 25 },
@@ -106,3 +106,19 @@ const over18 = people.filter(function(people){
   return people.age >= 18
 })
 console.log(over18)
+
+/*2. Write a filter function to return only items that are red.*/
+
+const items = [
+  { type: "shirt", color: "red" },
+  { type: "pants", color: "blue" },
+  { type: "hat", color: "red" },
+  { type: "scarf", color: "green" },
+];
+
+const redItems = items.filter(function(item){
+  return item.color === "red"
+})
+// use arrow fn
+const blueItems = items.filter(item => item.color === "blue")
+console.log(blueItems)
