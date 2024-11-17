@@ -197,7 +197,17 @@ const names = ["JavaScript", "Python", "Ruby"];
 const newNames = names.map(name => `${name} is cool!`)
 console.log(newNames)
 
+//Convert an array of objects with name and age into strings in the format "Name: <name>, Age: <age>".
 
+const pple = [
+  { name: "John", age: 25 },
+  { name: "Jane", age: 30 }
+];
+
+//
+const NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const oddNumbersFiltered = NUMBERS.filter(NUM => NUM % 2 === 0)
+console.log(oddNumbersFiltered)
 
 
 
