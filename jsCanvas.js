@@ -123,6 +123,7 @@ const redItems = items.filter(function(item){
 const blueItems = items.filter(item => item.color === "blue")
 console.log(blueItems)
 
+console.log('\n---\n')
 /*
 *3. Write a filter function to return cars that are blue and made after 2019.
 
